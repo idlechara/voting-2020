@@ -4,3 +4,12 @@
 
 layout: home
 ---
+
+{% for election in site.elections %}
+  <h2>
+    <a href="{{ election.url }}">
+      {{ election.date | date: "%d/%m" }} - {{ election.country }} - {{ election.title }}
+    </a>
+  </h2>
+  <p>{{ election.content | markdownify }}</p>
+{% endfor %}

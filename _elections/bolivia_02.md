@@ -1,5 +1,6 @@
 ---
-title:  Segunda vuelta de elecciones generales
+title:  Segunda vuelta de elecciones generales de Bolivia
+name:  Segunda vuelta de elecciones generales
 country: Bolivia
 date: 14/06/2020
 wikipedia: https://es.wikipedia.org/wiki/Elecciones_generales_de_Bolivia_de_2020

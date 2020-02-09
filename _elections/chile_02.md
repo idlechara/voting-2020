@@ -1,5 +1,6 @@
 ---
-title:  Elecciones de convencionales constituyentes
+title:  Elecciones de convencionales constituyentes de Chile
+name:  Elecciones de convencionales constituyentes
 country: Chile
 date: 25/10/2020
 wikipedia: https://es.wikipedia.org/wiki/Elecciones_de_convencionales_constituyentes_de_Chile_de_2020

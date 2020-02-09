@@ -15,10 +15,14 @@ layout: home
   }
 </style>
 
+<h1>Lista de elecciones confirmadas:</h1>
+
+<p>A continuación se presenta una lista de los procesos electorales para el año 2020 que hayan sido validados por las instituciones/organizaciones que las efectúan:</p>
+
 {% for election in site.elections %}
 <article class="election">
-  <h1>{{ election.date | date_to_long_string }}</h1>
-  <h2>{{ election.title }}</h2>
+  <h2>{{ election.date | date_to_long_string }}</h2>
+  <h3>{{ election.title }}</h3>
   <a href="{{ election.url }}"> Ver mas</a>
 </article>
 {% endfor %}

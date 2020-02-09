@@ -32,15 +32,15 @@ Those files define the fields for each election. It's composed of a  [front matt
 
 Our current front matter fields are as follows:
 
-| Campo | Definición| Ejemplo |
+| Field | Description | Example |
 |- |-|-|
-|`title` |  Titulo a mostrar | *Plebiscito nacional de Chile* |
-|`name` |  Nombre del evento | *Plebiscito nacional* |
-|`country` | País Asociado | *Chile* |
-|`date` | Fecha (para mostrar) | *26/04/2020* |
-|`wikipedia` | Enlace a Wikipedia (para tener alguna fuente mas conocida) | *https://es.wikipedia.org/wiki/Plebiscito_nacional_de_Chile_de_2020* |
-|`official_site` | Enlace a sitio oficial (para tener información  oficial) | *https://www.servel.cl/plebiscito-nacional-2020/* |
-|`layout` | Layout en el que está basado | *details_post* |
+|`title` |  Title to show | *Plebiscito nacional de Chile* |
+|`name` |  Event name | *Plebiscito nacional* |
+|`country` | Associated country | *Chile* |
+|`date` | Date (to show) | *26/04/2020* |
+|`wikipedia` | Wikipedia link | *https://es.wikipedia.org/wiki/Plebiscito_nacional_de_Chile_de_2020* |
+|`official_site` | Official info link | *https://www.servel.cl/plebiscito-nacional-2020/* |
+|`layout` | Layout which inherits from | *details_post* |
 
 ## Why the content is in Spanish whilst all commits, code and documentation are in English?
 

@@ -21,7 +21,15 @@ layout: home
 
 {% for election in site.elections %}
 <article class="election">
-  <h2>{{ election.date | date_to_long_string }}</h2>
+
+
+  {% assign months = "Enero|Febrero|Marzo|Abril|Mayo|Junio|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre" | split: "|" %}
+  {% assign m = election.date | date: "%-m" | minus: 1 %}
+  {% assign day = election.date | date: "%d" %}
+  {% assign month = months[m] %}
+  {% assign year = election.date | date: "%Y" %}
+
+  <h2>{{ day }} de {{ month }}</h2>
   <h3>{{ election.title }}</h3>
   <a href="{{ election.url  | prepend: site.baseurl }}"> Ver mas</a>
 </article>

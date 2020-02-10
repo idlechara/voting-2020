@@ -23,6 +23,6 @@ layout: home
 <article class="election">
   <h2>{{ election.date | date_to_long_string }}</h2>
   <h3>{{ election.title }}</h3>
-  <a href="{{ election.url }}"> Ver mas</a>
+  <a href="{{ election.url  | prepend: site.baseurl }}"> Ver mas</a>
 </article>
 {% endfor %}
